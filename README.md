@@ -10,6 +10,14 @@ It's super-easy to use, straightforward and designed for continuous use. Finally
 ## How?
 With some abstraction, Pythonic classes and ~~magic~~ tricks. Essentially, I use [*requests*](//github.com/kennethreitz/requests) for the actual communication, a few converter classes for parsing the output and making it a proper object, and some well-timed caching to make sure lazy-initialization doesn't get you down.
 
+## Installation
+Required before first use. In cmd / terminal navigate to the download location (where setup.py is located) and execute:
+```
+sudo python setup.py install
+```
+
+On Windows skip, skip the word 'sudo'
+
 ## How do I use this?
 Like so!
 ```python
